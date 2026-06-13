@@ -1,0 +1,300 @@
+victim_id,fir_id,name,age,gender,address,phone_number,injury_details
+1,1,Wridesh Madan,38,Male,"55, Arya, Amroha 863409",1117617703,Bruising on neck
+2,1,Brijesh Majumdar,64,Male,"421, Chaudhari Street, Jhansi-946094",+919375130771,Bruising on neck
+3,2,Noah Sodhi,34,Female,"H.No. 11, Mandal Chowk, Jorhat 880688",6069107437,Bruising on neck
+4,3,William Contractor,30,Female,"25, Kuruvilla Zila, Ahmedabad 694611",08198383008,
+5,3,Samesh Prasad,73,Male,"14/552, Mann Circle, Pimpri-Chinchwad-122100",+914823920963,
+6,4,Yamini Srinivas,58,Female,"09/41, Ram Path, Guntur 345107",07057295899,
+7,5,Mugdha Bhatt,28,Female,"H.No. 17, Chaudhary Chowk, Miryalaguda-569097",1899637567,Laceration on forehead
+8,6,Mahika Banerjee,43,Male,"48/361, Sem Road, Jehanabad-255593",+914121681154,
+9,7,Dhriti Kurian,55,Female,"H.No. 924, Bahri Marg, Kirari Suleman Nagar-411926",03709609091,Bruising on neck
+10,8,Yashoda Bhardwaj,41,Male,"93/70, Bhagat Road, Bidar 395300",6210672621,
+11,9,Varsha Lanka,49,Male,"98/602, Trivedi Street, Deoghar 667335",+916001599525,Bruising on neck
+12,10,Jagrati Wali,66,Male,"63/98, Bhavsar Chowk, Phusro-280901",5775939733,
+13,10,Jhalak Bhardwaj,40,Male,"H.No. 397, Krishnamurthy Zila, Agartala-828343",05235152227,Bruising on neck
+14,11,Chakrika Jha,26,Female,"13/656, Puri Zila, Mira-Bhayandar 700564",08803833581,
+15,12,Dominic Sarraf,53,Female,"23, Dixit Path, Kurnool 807160",+910337585275,Fracture of right wrist
+16,12,Dev Kaul,75,Female,"22/21, Dar Marg, Tirunelveli-622988",+913454678271,Bruising on neck
+17,13,Priya Hayre,19,Female,"08, Viswanathan Ganj, Machilipatnam 932497",+915296474800,
+18,14,Shivansh Keer,34,Male,"15, Ramakrishnan Nagar, Sambalpur 529055",01481335404,Minor abrasion on left arm
+19,15,Maanas Shroff,53,Female,"H.No. 63, Chandra Zila, Firozabad 767901",+915744115469,Laceration on forehead
+20,15,Ishani Mandal,62,Female,"81, Kaur Chowk, Pune 045381",5688355715,
+21,16,Chandani Upadhyay,52,Female,"23/675, Hayre Chowk, Dhanbad 067548",9829337051,
+22,17,Bhavani Brar,35,Male,"64/40, Ben Chowk, Deoghar-624930",+916460890834,
+23,17,Zaitra Palla,51,Male,"520, Sarma Marg, Sagar-067002",5283697636,Minor abrasion on left arm
+24,18,Manan Upadhyay,70,Female,"659, Ratta Marg, Ahmednagar 194353",00266366293,Laceration on forehead
+25,18,Advaith Saran,41,Female,"70/041, Chadha Nagar, Ramgarh-176475",+913724769342,
+26,19,Owen Sachdeva,64,Male,"H.No. 626, Choudhry Chowk, Katni-863637",+912502168250,
+27,19,Vasudha Radhakrishnan,57,Female,"69, Master Road, Jamshedpur 209355",1426363699,Fracture of right wrist
+28,20,Gabriel Minhas,38,Male,"H.No. 612, Gera Marg, Mango-063252",07352533539,Bruising on neck
+29,21,Januja Prabhu,30,Female,"92/16, Borra Zila, Kishanganj 114116",+918458000818,Fracture of right wrist
+30,21,Harinakshi Kadakia,53,Male,"49, Kamdar Nagar, Mira-Bhayandar-357552",+914659800501,Laceration on forehead
+31,22,Ijaya Loke,38,Female,"H.No. 893, Joshi Road, Baranagar-471241",4810234512,Bruising on neck
+32,22,Tristan Pant,38,Male,"38/75, Varma Circle, Nagercoil 060844",08697615940,
+33,23,Abhiram Sharaf,20,Male,"83/936, Anand Chowk, Vadodara-135233",+917813687344,
+34,24,Rayaan Chowdhury,30,Male,"207, Garg Road, Kavali 476671",09190724761,Minor abrasion on left arm
+35,25,Hritik Apte,24,Male,"57/10, Vohra Street, Adoni-096373",+917387412484,Laceration on forehead
+36,26,Zehaan Sheth,60,Female,"41/54, Issac Ganj, Yamunanagar 021350",09539418712,Laceration on forehead
+37,26,Banjeet Prabhu,57,Female,"47/744, Dugal Circle, Ichalkaranji 073636",01483153273,
+38,27,Vrishti Divan,32,Male,"41, Shere Road, Ichalkaranji-095173",06268485904,
+39,27,Samaksh Bahri,31,Female,"40/496, Nanda Chowk, Sikar 653566",7206914224,Fracture of right wrist
+40,28,Nisha Khurana,47,Male,"65, Pandya Ganj, Ahmedabad 103152",+919736419810,
+41,29,Bhavani Garde,70,Female,"H.No. 416, Ramesh Path, Jabalpur 229333",+918491811163,Fracture of right wrist
+42,29,Chameli Hayer,63,Male,"409, Bali Ganj, Jhansi 317620",09785770538,Fracture of right wrist
+43,30,Sai Bora,51,Male,"H.No. 22, Shah Ganj, Thanjavur-042866",06013978887,Bruising on neck
+44,30,Dakshesh Bhagat,22,Female,"48, Raj Circle, Munger-700954",+911752587961,
+45,31,Yash Sheth,51,Male,"14/052, Issac, Katni 376863",+915355640221,
+46,32,Jhalak Dhar,52,Female,"46/77, Bakshi Path, Rajahmundry-663870",0055491268,
+47,33,Azaan Khurana,51,Male,"55/21, Talwar Zila, Malda-399881",+916250182701,Laceration on forehead
+48,34,Pavani Banerjee,53,Female,"H.No. 305, Pingle Marg, Belgaum 163163",+918822352454,Bruising on neck
+49,35,Zehaan Bhardwaj,67,Female,"H.No. 104, Solanki Zila, Aizawl 322051",1516481235,Bruising on neck
+50,36,Wyatt Varkey,62,Female,"994, Dixit, Noida 113372",07815402864,
+51,36,Anjali Verma,28,Male,"943, Pal Circle, Pondicherry-651760",+918658393823,Laceration on forehead
+52,37,Kiaan Cherian,50,Female,"H.No. 38, Bumb Marg, Agra-793912",03297974399,Bruising on neck
+53,37,Ekanta Hora,28,Female,"27, Kadakia Nagar, Giridih 899370",2941578332,
+54,38,Nihal Kapadia,53,Female,"H.No. 15, Tara Nagar, Haldia 781509",7014785885,Fracture of right wrist
+55,38,Odika Sampath,41,Female,"31/737, Jhaveri Circle, Burhanpur-252005",+910770393482,Fracture of right wrist
+56,39,Charvi Tella,70,Female,"64, Prakash Zila, Sultan Pur Majra-628181",06777561925,Laceration on forehead
+57,39,Noah Gulati,33,Male,"76/17, Halder Nagar, Gorakhpur 221156",0786928505,Minor abrasion on left arm
+58,40,Elijah Ramesh,41,Female,"08/48, Kari Marg, Bidhannagar-241030",2855790323,Minor abrasion on left arm
+59,40,Bachittar Sarkar,43,Male,"77/385, Garg, Bahraich 042488",+913771833526,Bruising on neck
+60,41,Nirja Maharaj,36,Male,"39/986, Vasa Circle, Madanapalle 369124",00480143207,Laceration on forehead
+61,42,Girish Palan,74,Female,"H.No. 46, Dara Road, Ambala-056196",04567855923,
+62,43,Vincent Kapoor,32,Male,"42/82, Balay Circle, Tezpur-638042",04172826269,Fracture of right wrist
+63,43,Ishani Viswanathan,38,Male,"12/53, Singhal Marg, Ghaziabad-689275",02324555159,Fracture of right wrist
+64,44,Pushti Rajagopalan,53,Male,"161, Basu, Sri Ganganagar 028147",4361135708,
+65,44,Ayush Palla,20,Female,"443, Khatri Ganj, Guna 465854",2594936764,
+66,45,Rajeshri Thaker,26,Female,"14, Pillai Marg, Kirari Suleman Nagar-145415",02435976617,
+67,46,Ekiya Lal,32,Female,"07/04, Singhal, Ahmedabad-374344",03152050401,Fracture of right wrist
+68,47,Geetika Kapadia,23,Female,"653, Dalal Circle, Nangloi Jat-726464",02932195037,Laceration on forehead
+69,47,Wriddhish Sathe,31,Male,"H.No. 483, Balan Marg, Amravati-146961",9003297545,Bruising on neck
+70,48,Xavier Rau,68,Female,"101, Chada, Bhiwani 924672",09016314442,
+71,48,Bhavani Parikh,49,Male,"682, Mani Nagar, Belgaum 665423",+918642164873,Laceration on forehead
+72,49,Udant Borde,20,Female,"08/56, Hora, Shahjahanpur-043276",06263219857,
+73,49,Ekanta Chhabra,67,Male,"69/08, Solanki Marg, Panihati-967040",1076320152,Fracture of right wrist
+74,50,Kevin Nanda,40,Female,"H.No. 906, Rastogi Zila, Karnal 171032",00841826144,Minor abrasion on left arm
+75,50,Urvi Bhagat,73,Male,"885, Goswami Marg, Ambala 275182",9244816752,Fracture of right wrist
+76,51,Anirudh Prabhakar,65,Male,"H.No. 154, Narain Ganj, Giridih-601180",+918714534483,Bruising on neck
+77,52,Aishani Chaudry,21,Female,"29, Narang Street, Hospet 267726",05647983802,Laceration on forehead
+78,52,Jeevika Hari,20,Female,"49/67, Choudhury Marg, Jamalpur 364228",+919660050812,Laceration on forehead
+79,53,Urvi Karpe,38,Male,"88/11, Chacko Zila, Guntur 241382",+918617303212,
+80,54,Omisha Nagi,61,Female,"995, Prabhakar Street, Pudukkottai 300490",00171686535,Minor abrasion on left arm
+81,55,Yoshita Dora,32,Female,"05/21, Ram Circle, Alappuzha-852100",2691356097,
+82,56,Gabriel Nazareth,27,Male,"H.No. 63, Mangat Ganj, Gaya-378258",0891189917,
+83,56,Hemang Oza,23,Female,"H.No. 181, Sachdev Ganj, Firozabad-238219",4309981376,Laceration on forehead
+84,57,Upkaar Chada,53,Female,"H.No. 92, Rajagopal Circle, Madhyamgram-354268",9311042096,
+85,58,Unnati Aurora,43,Female,"37/49, Wali Ganj, Thane-409156",9146092332,Fracture of right wrist
+86,59,Ira Prasad,66,Male,"H.No. 958, Naidu Ganj, Panvel-350658",+918110996755,Minor abrasion on left arm
+87,60,Ekanta Sastry,49,Female,"H.No. 83, Srinivas Nagar, Lucknow 251599",05454272771,Bruising on neck
+88,61,Arunima Kashyap,53,Male,"H.No. 45, Gera Chowk, Khammam-956955",+919060879405,
+89,62,Ishita Salvi,35,Female,"69/35, Date Marg, Alappuzha 556464",4726922329,
+90,63,Siddharth Batta,25,Female,"768, Bhatti Ganj, Mahbubnagar 668532",+912194547175,Minor abrasion on left arm
+91,64,Aarini Bhakta,40,Male,"H.No. 85, Krishnamurthy Ganj, Jamnagar-615164",+913407244313,
+92,64,Kamala Bera,40,Male,"H.No. 75, Hayre Street, Ludhiana-530288",02139126578,Fracture of right wrist
+93,65,Brinda Lad,28,Female,"H.No. 56, Shanker Road, Nadiad-153751",4759597882,Laceration on forehead
+94,65,Gautam Dixit,70,Female,"60, Bhatia Road, Danapur-656929",4787542679,Laceration on forehead
+95,66,Nicholas Wason,46,Male,"90/01, Lal Zila, Ranchi-300735",7458132648,Fracture of right wrist
+96,67,Vamakshi Goda,30,Female,"889, Nazareth Ganj, Bijapur 309727",07044319245,
+97,68,Ayushman Sengupta,25,Male,"H.No. 111, Jani Nagar, Panchkula-073113",+918105329544,
+98,69,Leela Sarin,73,Female,"909, Narasimhan, Rampur-109421",06057683255,
+99,70,Onveer Chaudhari,62,Male,"96, Tripathi Chowk, Faridabad-417921",+914949742763,
+100,70,Gayathri Hora,46,Female,"143, Mahajan Ganj, Jamshedpur-554019",02286716982,
+101,71,Rachana Merchant,31,Male,"07, Singh Nagar, Mathura-264410",06753854576,
+102,71,Rudra Venkatesh,52,Female,"211, Sen Circle, Jhansi 025826",08216858728,Laceration on forehead
+103,72,Nilima Doctor,57,Male,"H.No. 867, Sur Ganj, Saharsa 400731",02363829633,Bruising on neck
+104,72,Avni Sheth,62,Male,"28, Kale Circle, Indore 819944",7676063862,Minor abrasion on left arm
+105,73,Darika Korpal,34,Male,"819, Thaker, Ludhiana-735785",03494702545,
+106,74,Devansh Ghosh,30,Female,"39, Goyal Road, Patiala-190757",03711122439,
+107,74,Zarna Saini,47,Male,"291, Bala Nagar, Khora  578817",+913982006987,
+108,75,Liam Agrawal,60,Female,"88/29, Sabharwal Street, Surendranagar Dudhrej-351647",8212080984,Bruising on neck
+109,75,Rushil Chopra,72,Female,"56/50, Bala Street, Katihar 751155",+910675176724,Fracture of right wrist
+110,76,Priya Saini,19,Female,"H.No. 84, Krishnan Ganj, Thane 170618",+914540790019,Fracture of right wrist
+111,77,Mahika Lalla,32,Female,"H.No. 089, Dash Street, Navi Mumbai-616842",04473227880,Laceration on forehead
+112,77,Jasmit Tara,63,Male,"342, Khanna Circle, Amritsar-926788",04748682610,
+113,78,Ekta Butala,73,Male,"560, Nagi Street, Jalna-687254",05981615366,
+114,78,Yashasvi Seshadri,30,Female,"96, Trivedi Marg, Bilaspur 083406",+919200992759,Laceration on forehead
+115,79,Radha Raghavan,20,Male,"477, Banik Road, Bhopal 539122",+917739710752,Laceration on forehead
+116,80,Reva Chada,39,Female,"65/83, Wali Path, Gulbarga-676119",1800837263,Minor abrasion on left arm
+117,80,Watika Sharma,65,Male,"H.No. 886, Munshi Nagar, Dindigul-981922",4072782781,
+118,81,Christopher Hans,61,Female,"96, Lad, Jamnagar-887559",2496573122,
+119,81,Unnati Goel,58,Female,"H.No. 359, Dugal Ganj, Srinagar 853968",7635096138,
+120,82,Manan Shroff,69,Male,"062, Verma Zila, Karimnagar-909764",+918438794053,Bruising on neck
+121,82,Yoshita Luthra,34,Female,"21/721, Borah Ganj, Naihati-961202",0416390918,Fracture of right wrist
+122,83,Chakradhar Pandey,53,Female,"H.No. 26, Dayal Nagar, Vadodara 243491",04371512775,
+123,84,Max Aurora,39,Female,"46/995, Setty Circle, Suryapet-286919",01488776844,Bruising on neck
+124,85,Krish Sama,23,Female,"762, Karnik Path, Bhalswa Jahangir Pur 726417",5976030982,Laceration on forehead
+125,86,Frederick Dugal,44,Male,"H.No. 60, Handa Street, Miryalaguda-824006",1729879177,Laceration on forehead
+126,87,Ekta Tiwari,45,Female,"798, Ramesh Circle, Motihari 485561",07604255162,Laceration on forehead
+127,88,Nikita Ramanathan,46,Male,"H.No. 31, Pai Ganj, Surat-243075",2171006311,
+128,88,Kala Golla,59,Male,"76/321, Manne Path, Howrah-629263",9619319092,Laceration on forehead
+129,89,Wishi Sethi,73,Male,"40/26, Ranganathan Ganj, Shimoga-432372",01418708168,
+130,90,Omaja Sekhon,45,Male,"H.No. 81, Kulkarni, Gorakhpur 160280",06287369424,Bruising on neck
+131,91,Madhav Chakrabarti,38,Male,"H.No. 763, Khurana Nagar, Khammam 412595",05408128101,Laceration on forehead
+132,92,Ishani De,29,Female,"22/659, Manda, Tiruppur 770990",6201437059,Fracture of right wrist
+133,93,Nitesh Bhatti,64,Male,"045, Gupta Ganj, Davanagere-664086",8790313881,Fracture of right wrist
+134,94,Frederick Iyengar,74,Female,"57, Baral Path, Erode 675308",4497842661,Minor abrasion on left arm
+135,94,Megha Butala,37,Female,"H.No. 44, Sodhi Circle, Dhanbad-617797",5768160632,Bruising on neck
+136,95,Bhavika Kata,27,Male,"27/543, Parmar Street, Loni 969745",+913150324374,
+137,95,Megha Sankar,26,Male,"772, Sarna Street, Karnal 356912",+919791598744,
+138,96,Laksh Sandhu,56,Male,"41/785, Bumb Circle, Ajmer-075817",+910507994110,Laceration on forehead
+139,96,Abhimanyu Misra,32,Male,"84/727, Madan, Ranchi-408139",+914146024264,Bruising on neck
+140,97,Ryan Bali,40,Male,"37, Loyal Zila, Akola 650337",05160817400,Bruising on neck
+141,98,Aarush Gour,26,Female,"43/234, Datta Chowk, Alwar 834031",0078967250,Bruising on neck
+142,98,Vansha Morar,59,Female,"26/755, Halder Chowk, Gorakhpur-242889",3510146677,
+143,99,Vyanjana Kalita,49,Female,"24, Pradhan Zila, Panihati-319425",+917442219107,
+144,99,Hemal Saran,28,Male,"15, Gill Marg, Karaikudi 834009",08184387955,
+145,100,Alka Toor,44,Male,"H.No. 07, Chaudhry Circle, Agra-765232",09888482211,
+146,101,Reyansh Majumdar,32,Male,"H.No. 19, Dada Path, Rajkot-967123",+918249602555,Fracture of right wrist
+147,101,Ronith Sandhu,31,Male,"86, Sarna Street, Gudivada 668509",8152232601,
+148,102,Balvan Barad,73,Female,"H.No. 87, Oza Ganj, Ratlam 536877",06735631535,Bruising on neck
+149,102,Tanvi Garg,38,Female,"61/85, Gara Zila, Thane 173621",2059377032,
+150,103,Vrishti Kota,43,Male,"H.No. 30, Taneja Road, Proddatur 151535",+919116700848,Laceration on forehead
+151,103,Inaya Johal,65,Female,"H.No. 51, Banerjee Ganj, Shivpuri-773992",2490844767,Bruising on neck
+152,104,Panini Gade,43,Male,"39/128, Chokshi Street, Ghaziabad-132419",9153194637,Laceration on forehead
+153,104,Teerth Swaminathan,24,Female,"H.No. 06, Mall Ganj, Malda 034726",6229805307,Minor abrasion on left arm
+154,105,Falan Nadkarni,74,Male,"55, Mody Nagar, Durgapur-224735",+912829670668,Laceration on forehead
+155,106,Prisha Sibal,65,Male,"H.No. 142, Dayal Chowk, Nashik-346041",09946515195,Laceration on forehead
+156,106,Bina Bawa,42,Male,"817, Devan Nagar, Burhanpur 882121",09044131469,
+157,107,Wazir Kalita,46,Female,"H.No. 520, Deo Marg, Thane 392805",0911448869,
+158,107,Ishanvi Chaudhary,67,Female,"31/34, Chandran Road, Ozhukarai 374442",05258570377,Minor abrasion on left arm
+159,108,Azad Parsa,45,Female,"H.No. 97, Mahajan Marg, Ratlam-080877",9482993917,Laceration on forehead
+160,109,Imaran Rout,62,Male,"H.No. 40, Dutt Chowk, Srinagar 278862",+914337239709,Minor abrasion on left arm
+161,110,Bhavini Kakar,23,Male,"H.No. 35, D’Alia Zila, Durg 479392",+915786167260,
+162,110,Bhavani Arya,67,Male,"46/566, Aggarwal Street, Hyderabad-956875",1985507845,Minor abrasion on left arm
+163,111,Ubika Sachdeva,38,Female,"H.No. 001, Bhalla Nagar, Farrukhabad-829514",07864343148,
+164,111,Tanay Krishnan,29,Female,"86, Khatri Zila, Orai-071679",06046727860,Laceration on forehead
+165,112,Varenya Ravel,74,Female,"H.No. 11, Sarkar Circle, Durg-944966",4842347665,
+166,113,Guneet Bassi,38,Male,"69/39, Raval Path, Bhiwani-424121",+913515641524,Bruising on neck
+167,113,Leena Sankaran,64,Male,"314, Salvi Marg, Ongole-626858",+914922297424,
+168,114,Samaksh Dey,63,Female,"42/71, Bhardwaj Zila, Ambala-410154",+910200104130,Bruising on neck
+169,115,Ishwar Gala,23,Female,"502, Dhaliwal Nagar, Kamarhati-169798",5888292149,Bruising on neck
+170,115,Praneel Shanker,68,Male,"10/667, Prakash Marg, Haridwar 604919",06146721338,Minor abrasion on left arm
+171,116,Zaitra Dani,20,Male,"06/39, Vyas Street, Bahraich-253485",+919297524938,
+172,116,Amol Krishnamurthy,54,Male,"35, Parikh Path, Karawal Nagar 689701",03665999594,
+173,117,Kiaan Taneja,29,Male,"237, Yadav Circle, Naihati-564826",+916683717456,Minor abrasion on left arm
+174,118,Samarth Sarma,37,Female,"02, Radhakrishnan Zila, Rourkela 792861",+915147546121,
+175,118,Kabir Batra,58,Male,"79/314, Balakrishnan Chowk, Bahraich 838967",+910232767793,
+176,119,Yashawini Butala,30,Male,"22, Saxena Chowk, Arrah 528512",6410588599,Laceration on forehead
+177,120,Tripti Raja,18,Female,"H.No. 607, Dhillon Chowk, Haridwar-090410",+912523433723,Minor abrasion on left arm
+178,120,Yug Jayaraman,72,Female,"H.No. 160, Kara, Morbi-435887",+917083813710,Laceration on forehead
+179,121,Reyansh Nanda,56,Female,"55/60, Verma Chowk, Katni-117805",+910649030515,
+180,122,Rachana Sami,55,Female,"H.No. 107, Dani Circle, Vijayawada-139191",+915811483749,Minor abrasion on left arm
+181,123,Rachit Barman,46,Male,"56, Sangha Circle, Saharsa 004978",+912061139866,Laceration on forehead
+182,123,Chaman Hora,56,Male,"H.No. 84, Swamy Ganj, Bidhannagar-187207",+916920195420,
+183,124,Tamanna Nagarajan,57,Male,"H.No. 203, Bansal Street, Bidhannagar-324273",+912406843828,
+184,124,Vritti Mohanty,29,Male,"530, Sarna Street, Sasaram 856427",4366355668,
+185,125,Rayaan Pall,20,Male,"56, Chowdhury, Jodhpur 041919",1200808119,Fracture of right wrist
+186,125,Ryan Lad,20,Female,"H.No. 680, Suresh Road, Jaipur-980448",+916498002836,
+187,126,Ayushman Tank,21,Male,"780, Manda Circle, Lucknow 824991",2242607283,Minor abrasion on left arm
+188,127,Joshua Loyal,28,Female,"H.No. 15, Dyal Street, Bareilly 508560",2069961385,Laceration on forehead
+189,128,Sudiksha Mitter,47,Female,"H.No. 618, Gola Ganj, Dewas 806743",9619390410,
+190,129,Orinder Dugal,67,Female,"14/83, Gour Chowk, Bilaspur-130861",2679656607,
+191,130,Ekapad Arya,75,Female,"258, Shere Nagar, Amroha-039027",03460954993,Fracture of right wrist
+192,130,Zilmil Chahal,22,Female,"332, Chana Nagar, Raiganj 565653",+918835546303,Fracture of right wrist
+193,131,Omaja Mander,36,Female,"H.No. 39, Bail Zila, Mau 233218",9337564977,
+194,132,Kala Puri,62,Female,"05/509, Hayre Road, Pimpri-Chinchwad-455270",06519554751,
+195,133,Tanish Tiwari,51,Male,"932, Parikh Circle, Panipat-964973",2474589550,Bruising on neck
+196,133,Oni Rana,31,Male,"82, Rege, Karawal Nagar 624693",8337429777,
+197,134,Manthan Raval,48,Female,"H.No. 434, Ghose Zila, Tenali-212882",+918970220994,Minor abrasion on left arm
+198,135,Maya Vora,34,Female,"28/537, Srivastava Road, Durgapur-662081",06855329209,
+199,135,Advay Sahni,57,Female,"H.No. 014, Wali Chowk, Latur 352385",9923099306,Laceration on forehead
+200,136,Vaishnavi Radhakrishnan,49,Male,"H.No. 59, Mohan Zila, Adoni-606932",06452963770,Laceration on forehead
+201,136,Akshay Pal,32,Female,"468, Radhakrishnan Zila, Bhimavaram-747785",07000976426,
+202,137,Radha Nigam,25,Male,"H.No. 83, Shah Street, Berhampore-137535",3019935121,Minor abrasion on left arm
+203,138,Jagat Kapur,65,Male,"14, Bajwa Nagar, Tadepalligudem-794522",01208623295,Fracture of right wrist
+204,139,Abha Karpe,44,Male,"74/311, Mitter Path, Thanjavur 826511",+918649098074,
+205,139,Harish Vala,40,Male,"90/21, Amble Nagar, Bhalswa Jahangir Pur 883810",+917110323818,
+206,140,Fariq Chakraborty,62,Female,"77/289, Dutta Street, Rohtak 025557",+913703500682,
+207,141,Urmi Hora,37,Female,"H.No. 550, Butala Marg, Karaikudi 843200",01807406044,Laceration on forehead
+208,142,Arya Mane,67,Male,"H.No. 03, Chand Circle, Morena-873467",+911116341367,
+209,142,Rayaan Chacko,61,Female,"30/92, Padmanabhan, Mehsana 370079",1017320791,
+210,143,Shaurya Kar,64,Male,"H.No. 568, Bumb Marg, Panihati-456582",03413908910,Fracture of right wrist
+211,143,Harinakshi Gola,29,Male,"H.No. 170, Gala Path, Dhule-265117",5312242910,
+212,144,Vidhi Kashyap,61,Female,"H.No. 219, Sheth Street, Bhilai 136070",00832587411,Minor abrasion on left arm
+213,144,Shivansh Chawla,69,Male,"14, Char Marg, Satna 786313",+919799926698,Bruising on neck
+214,145,Yachana Borde,48,Male,"H.No. 708, Sami Marg, Imphal-261493",02915217974,Bruising on neck
+215,146,Gayathri Chad,75,Female,"30, Bawa Street, Danapur 493347",8451552919,Minor abrasion on left arm
+216,146,Kevin Chaudhuri,68,Female,"92, Prabhakar, Tirupati-456370",+916638938274,Bruising on neck
+217,147,Atharv Raja,71,Female,"55/602, Mistry Nagar, Hyderabad-303390",7774475451,Laceration on forehead
+218,148,Dhruv Sampath,53,Male,"23/91, Mani Chowk, Bihar Sharif-753737",06647455004,
+219,148,Omaja Loke,54,Female,"H.No. 419, Iyengar Zila, Ghaziabad 125984",+918269142224,Fracture of right wrist
+220,149,Darsh Mallick,22,Male,"96/07, Sanghvi Road, Bettiah 203648",+913129057603,
+221,149,Ayushman Hayer,71,Male,"787, Bhatti Zila, Firozabad-864574",2044816210,
+222,150,Ekta Batta,58,Male,"H.No. 804, Nagi, Malda 034982",08392415695,Laceration on forehead
+223,150,Yashodhara Sachdeva,56,Female,"772, Wali Circle, Siliguri 366386",03313868163,
+224,151,Jeet Ghosh,73,Female,"H.No. 600, Dua Zila, Alappuzha 360322",4161216148,Bruising on neck
+225,152,Lekha Wable,63,Male,"472, Kar Ganj, Dharmavaram 798665",03238650891,
+226,152,Xalak Chadha,44,Male,"37/110, Chokshi Circle, Gangtok 819767",08043574416,Minor abrasion on left arm
+227,153,Lopa Ghosh,41,Female,"17/34, Shah Chowk, Guntakal-818902",9025963360,Fracture of right wrist
+228,154,Ekaraj Char,31,Female,"42, Chatterjee Chowk, Unnao-002165",09379972101,
+229,154,Oviya Sankar,25,Female,"H.No. 834, Kibe Path, Bhiwandi 685106",08212124185,Fracture of right wrist
+230,155,Hardik Chacko,67,Male,"63, Dhawan Zila, Ghaziabad 087089",06679593502,
+231,156,Udarsh Pathak,50,Male,"H.No. 301, Munshi Road, Darbhanga-528810",06393327013,Fracture of right wrist
+232,156,Kashvi Din,48,Male,"15, Joshi Street, Kishanganj-498679",+916066220302,
+233,157,Indali Seshadri,48,Female,"H.No. 402, Bhatti Nagar, Thane 837058",7176196740,Fracture of right wrist
+234,157,Leela Pandya,38,Male,"77/96, Bajaj Chowk, Bally 030943",+910114984427,Fracture of right wrist
+235,158,Widisha Kalla,70,Male,"49/866, Toor Path, Agra-346823",+911891458869,
+236,159,Prisha Cheema,47,Female,"H.No. 20, Chahal Road, Kishanganj 417569",+913516727354,Bruising on neck
+237,160,Anamika Pandya,18,Female,"H.No. 66, Keer Street, Fatehpur-370975",+914736139274,
+238,161,Manya Dube,39,Female,"12/104, Prashad Marg, Gandhidham-584048",04877976663,
+239,162,Jagat Shah,51,Female,"65/255, Anne, Munger 778882",3810410020,
+240,163,Fariq Kamdar,58,Male,"20, Mandal Street, Bidar 560600",00882724284,
+241,163,Bhavani Sarin,30,Male,"37, Merchant Zila, Thrissur-218041",00129759956,
+242,164,Balhaar Badal,52,Female,"H.No. 471, Yadav Chowk, Rajkot-828442",3042215361,Fracture of right wrist
+243,164,Aishani Swaminathan,46,Male,"70, Tripathi Marg, Mau-023987",+914493802687,
+244,165,Gagan Kamdar,28,Female,"H.No. 51, Wable, Chinsurah 736422",+916194031799,
+245,166,Shivani Dass,57,Male,"H.No. 56, Sane Chowk, Berhampur-667310",6712378921,
+246,167,Charita Wagle,53,Female,"H.No. 774, Wali Zila, Silchar 813507",6396650130,
+247,167,Ekanta Datta,27,Female,"H.No. 140, Sunder Ganj, Amaravati 983360",+917689736423,Laceration on forehead
+248,168,Sarthak Karpe,28,Male,"H.No. 13, Virk Street, Bellary 103016",08613902174,
+249,169,Chakradhar Warrior,52,Female,"32/831, Morar Road, Vellore-432092",+915950277862,
+250,169,Rajeshri Divan,26,Male,"H.No. 673, Gopal Zila, Sri Ganganagar 099743",+915397722479,Minor abrasion on left arm
+251,170,Yatan Lal,24,Female,"75/002, Choudhury, Gurgaon-664557",1173599143,
+252,171,Ria Barman,45,Female,"63/29, Ghose Path, Udupi-521955",05277689261,
+253,172,Chaitaly Singhal,57,Female,"H.No. 31, Subramanian Street, Bhavnagar 572585",1729680097,
+254,172,Farhan Konda,39,Male,"39/14, Rege Street, Ratlam 214866",06190064011,Bruising on neck
+255,173,Joshua Dhillon,66,Female,"H.No. 91, Sagar Ganj, Dibrugarh-116553",7812281887,Laceration on forehead
+256,174,Arin Purohit,23,Female,"H.No. 15, Sekhon Street, Sri Ganganagar-278664",+917403692387,
+257,175,Raksha Dhaliwal,37,Female,"80/721, Kannan Street, Jamnagar 119462",1873806177,Minor abrasion on left arm
+258,175,Zinal Chahal,32,Male,"43/580, Patla Zila, Bihar Sharif-082547",+914516683614,
+259,176,Andrew Iyer,41,Female,"59/38, Patil Marg, Madurai-755321",01733504326,
+260,176,Krisha Kala,62,Female,"479, Khatri Marg, Bhubaneswar 788933",+912003551539,Fracture of right wrist
+261,177,Girik Chada,47,Female,"12/278, Chakraborty Zila, Jammu-015506",+918968092010,
+262,177,Kala Pant,22,Female,"62/87, Hegde Chowk, Chinsurah 860757",05508529704,
+263,178,Dominic Palan,48,Female,"86/82, Varty Street, Solapur-172547",+916663598102,Fracture of right wrist
+264,178,Yashica Wason,28,Female,"H.No. 613, Sura Chowk, Vellore-390970",5987291163,Fracture of right wrist
+265,179,Ojasvi Chand,56,Male,"H.No. 875, Om, Durgapur 697111",+918562920275,Laceration on forehead
+266,179,Nisha Tripathi,24,Female,"37/61, Swaminathan Zila, Amaravati 302863",+917400113491,Fracture of right wrist
+267,180,Hritik Sengupta,38,Male,"308, Murthy Chowk, Davanagere-318750",8906112316,Fracture of right wrist
+268,181,Yagnesh Gade,52,Female,"65, Andra Nagar, Saharanpur 547682",+913433337440,Minor abrasion on left arm
+269,181,Zinal Seshadri,55,Female,"84, Sibal Path, Hindupur-649783",+916085248628,
+270,182,Ekansh Rege,53,Male,"H.No. 15, Manne Street, Gopalpur-390517",+916061140253,Minor abrasion on left arm
+271,183,Champak Sawhney,22,Female,"73, Taneja Street, Bidhannagar 436965",05679767071,
+272,183,Max Mahal,70,Female,"60/81, Uppal, Rourkela-384204",06704584907,Fracture of right wrist
+273,184,Amara Walia,54,Female,"95, Mangat Road, Bellary-629697",+910497334870,Laceration on forehead
+274,184,Vansha Zacharia,62,Male,"20/764, Deol Marg, Erode-561993",+917104414023,
+275,185,Tanmayi Deol,65,Female,"H.No. 806, Pant Chowk, Bhalswa Jahangir Pur 532149",+915566124211,
+276,186,Irya Sur,38,Male,"03/35, Kibe Marg, Kishanganj-057329",+916488097323,Fracture of right wrist
+277,186,Sarthak Dhar,46,Male,"40/348, Vora, Danapur-097915",+910232016196,
+278,187,Brinda Guha,22,Male,"64, Wali Nagar, Firozabad 683957",02911817600,Bruising on neck
+279,187,Charvi Sule,70,Female,"56, Dash Zila, Raurkela Industrial Township-994626",03583552075,
+280,188,Rachana Sodhi,59,Male,"H.No. 30, Pandit Path, Nagercoil-293214",07225159478,
+281,188,Tara Bahri,31,Male,"53/59, Bala, Dindigul 983725",04512454586,Laceration on forehead
+282,189,Imaran Wali,66,Male,"756, Batra Road, Bhubaneswar 733186",05907735264,Bruising on neck
+283,190,Kamya Dasgupta,46,Female,"H.No. 33, Saran Nagar, Anand 746581",7520265021,Minor abrasion on left arm
+284,191,Oviya Bassi,30,Male,"H.No. 77, Hayer Road, Haldia-246496",8703906314,Bruising on neck
+285,191,Mohammed Vora,74,Female,"641, Lalla Marg, Sri Ganganagar-057632",05220778467,
+286,192,Rachana Nath,45,Female,"49/958, Gola Ganj, Tadepalligudem-630763",1378322117,
+287,192,Mohini Choudhary,55,Male,"05, Bir Path, Shimla-547427",00846881133,Laceration on forehead
+288,193,Madhavi Mannan,72,Male,"95/528, Subramaniam Nagar, Gulbarga 751086",5496548922,Fracture of right wrist
+289,193,Dayamai Suri,36,Male,"78/681, Rau, Kozhikode-981510",3780674879,
+290,194,Lakshmi Dalal,18,Female,"19/46, Chawla Marg, Udaipur-250291",0232934782,
+291,195,Kalpit Bhavsar,73,Male,"00/06, Bahl Chowk, Visakhapatnam-480610",00315806988,
+292,195,Eiravati Barad,45,Female,"376, Sane Zila, Katni-000158",+916498517725,Bruising on neck
+293,196,Sudiksha Mane,63,Female,"58/203, Halder Path, Nangloi Jat-808013",07176925267,Minor abrasion on left arm
+294,196,Pallavi Biswas,42,Female,"80/063, Banik Marg, Srikakulam 667335",5665452236,Laceration on forehead
+295,197,Rohan Hayre,60,Male,"H.No. 14, Sheth Street, Raiganj-616657",4498277518,Minor abrasion on left arm
+296,198,Advay Mittal,30,Female,"H.No. 27, Goswami Road, Sikar-913706",+913778760444,Fracture of right wrist
+297,199,Advik Panchal,71,Female,"881, Gour Street, Fatehpur-484999",2204442108,
+298,199,Sachi Barman,36,Male,"H.No. 51, Tiwari Street, Sagar-779841",01009921910,
+299,200,Yashica Yadav,22,Male,"31/09, Arora Marg, Ranchi-229869",+915331880517,

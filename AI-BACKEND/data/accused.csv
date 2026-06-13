@@ -1,0 +1,31 @@
+accused_id,name,alias,age,gender,address,phone_number,aadhaar_last4,prior_cases_count,district
+1,Agastya Venkataraman,Bhavini,35,Male,"H.No. 188, Muni Circle, Vijayanagaram 558549",+917640670083,4657,11,Bengaluru Urban
+2,Amol Pingle,,24,Male,"H.No. 90, Vohra Nagar, Panchkula 129617",02131129343,7912,9,Bengaluru Rural
+3,Noah Krishnamurthy,Adya,23,Male,"32/92, Raj Ganj, Purnia 204318",+913260782503,4811,6,Bengaluru Urban
+4,Zilmil Madan,,19,Male,"H.No. 358, Saha Path, Kharagpur 951509",8967268531,9928,19,Mangaluru
+5,Dakshesh Sarkar,Ira,46,Male,"H.No. 07, Jhaveri Circle, Surat-361530",+912557983788,1106,15,Hubli-Dharwad
+6,Adweta Mistry,,45,Male,"92, Chaudhuri Marg, Jamalpur 307371",+912437507874,5552,12,Bengaluru Rural
+7,Qadim Majumdar,Karan,39,Male,"H.No. 141, Rai Path, Mehsana 857555",+915675738188,2519,8,Bengaluru Rural
+8,Isaac Bumb,Wazir,40,Male,"H.No. 74, Mandal Path, Bharatpur-226883",1647997259,5333,11,Hubli-Dharwad
+9,Hema Narula,,47,Male,"H.No. 943, Sama Marg, Secunderabad-579417",9624859625,7201,13,Bengaluru Urban
+10,Varsha Sibal,,36,Male,"58/629, Mani Street, Purnia 484743",01554163994,4150,7,Bengaluru Urban
+11,Vincent Sem,Yoshita,32,Male,"17, Pradhan Street, Panchkula-448608",+918133828806,2307,8,Bengaluru Urban
+12,Lajita Talwar,William,42,Male,"67/788, Wali Road, Junagadh 432871",+911849984674,8428,9,Bengaluru Rural
+13,Jagat Khosla,Kamala,41,Male,"H.No. 556, Bhagat Path, Anand-641262",0161739943,4432,28,Mysuru
+14,Falan Badal,,22,Male,"627, Sani Marg, Bhimavaram 748485",1734473787,9751,31,Mysuru
+15,Tamanna Bhardwaj,Omisha,47,Female,"93/09, Pandit Road, Avadi 820377",+911415621865,5422,6,Bengaluru Rural
+16,Baghyawati Prabhakar,Tanish,38,Male,"30/47, Kunda Marg, Bhilai 547194",08618689775,4752,22,Mangaluru
+17,Advik Pall,,43,Male,"H.No. 838, Ghosh Chowk, Jalna-701728",0963526890,2084,9,Bengaluru Urban
+18,Frado Sundaram,,38,Male,"52, Yadav Circle, Tadipatri-444230",+913682565536,9179,7,Bengaluru Rural
+19,Manan Ramanathan,,47,Male,"H.No. 809, Biswas Nagar, Varanasi-624233",02215076998,5339,11,Hubli-Dharwad
+20,Sara Hegde,Oeshi,53,Male,"42/56, Tara Circle, Berhampore-344620",03080550153,8019,12,Bengaluru Rural
+21,Rushil Ramachandran,,41,Male,"H.No. 69, Arora Street, Chennai 461865",7904701233,3266,17,Mangaluru
+22,Jack Ganguly,,23,Male,"H.No. 28, Shan Ganj, Jaunpur 095285",0132166134,2796,17,Mangaluru
+23,Thomas Dhar,,28,Female,"H.No. 660, Barad, Malegaon 664400",05471367619,2040,7,Bengaluru Rural
+24,Lakshmi Tripathi,,47,Male,"016, Bail Ganj, Purnia 704280",04111670262,1188,15,Hubli-Dharwad
+25,Liam Krishnamurthy,,52,Male,"92/06, Ravi Street, Thane-884026",5549448963,6573,4,Bengaluru Urban
+26,Tanveer Khare,,45,Male,"26/402, Sani Ganj, Akola-044752",+919657035817,8433,9,Bengaluru Urban
+27,Bishakha Mohan,,34,Male,"649, Buch Marg, Hospet 590670",+914071492968,9317,12,Bengaluru Urban
+28,Gagan Vala,,37,Male,"61/88, Barman Zila, Bathinda-270952",9732775633,3504,11,Bengaluru Urban
+29,Sathvik Wali,Vyanjana,52,Male,"H.No. 92, Ray Road, Udupi 161113",1629704705,6310,36,Mysuru
+30,Naksh Bakshi,Max,25,Male,"794, Mand Chowk, Kolhapur 227376",00133838217,6038,16,Hubli-Dharwad
