@@ -5,28 +5,44 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-conn = psycopg2.connect(
-    host=os.getenv("DB_HOST", "localhost"),
-    port=os.getenv("DB_PORT", "5432"),
-    dbname=os.getenv("DB_NAME", "ksp_crime_db"),
-    user=os.getenv("DB_USER", "postgres"),
-    password=os.getenv("DB_PASSWORD", "password")
-)
-cur = conn.cursor()
+def get_conn():
+    return psycopg2.connect(
+        host=os.getenv("DB_HOST"),
+        port=os.getenv("DB_PORT", "5432"),
+        dbname=os.getenv("DB_NAME"),
+        user=os.getenv("DB_USER"),
+        password=os.getenv("DB_PASSWORD"),
+        sslmode=os.getenv("DB_SSLMODE", "require"),
+        connect_timeout=30,
+        keepalives=1,
+        keepalives_idle=30,
+        keepalives_interval=10,
+        keepalives_count=5,
+    )
 
 def load(csv_file, table, columns, types=None):
+    # Fresh connection for every table
+    conn = get_conn()
+    cur  = conn.cursor()
+
     path = f"data/{csv_file}"
     if not os.path.exists(path):
         print(f"  MISSING: {path}")
+        cur.close(); conn.close()
         return
+
     with open(path, "r", encoding="utf-8") as f:
         rows = list(csv.DictReader(f))
+
     if not rows:
         print(f"  EMPTY: {csv_file}")
+        cur.close(); conn.close()
         return
+
     col_str = ", ".join(columns)
     phs     = ", ".join(["%s"] * len(columns))
     sql     = f"INSERT INTO {table} ({col_str}) VALUES ({phs}) ON CONFLICT DO NOTHING"
+
     data = []
     for row in rows:
         record = []
@@ -41,9 +57,26 @@ def load(csv_file, table, columns, types=None):
                     val = None
             record.append(val)
         data.append(tuple(record))
-    cur.executemany(sql, data)
-    conn.commit()
-    print(f"  Loaded {len(data)} rows into {table}")
+
+    # Insert in small batches of 50 to avoid timeout
+    batch_size = 50
+    total = 0
+    for i in range(0, len(data), batch_size):
+        batch = data[i:i+batch_size]
+        try:
+            cur.executemany(sql, batch)
+            conn.commit()
+            total += len(batch)
+        except Exception as e:
+            conn.rollback()
+            print(f"  ERROR in batch {i}-{i+batch_size}: {e}")
+            # Reconnect and continue
+            cur.close(); conn.close()
+            conn = get_conn(); cur = conn.cursor()
+
+    cur.close(); conn.close()
+    print(f"  Loaded {total} rows into {table}")
+
 
 print("Loading all tables...\n")
 
@@ -79,11 +112,11 @@ load("bank_transactions.csv", "bank_transactions",
      {"transaction_id":int,"accused_id":int,"amount":float,
       "flagged":lambda x: x.lower()=="true"})
 
+# Verification
 print("\nVerification:")
+conn = get_conn(); cur = conn.cursor()
 for table in ["officers","firs","accused","fir_accused","victims","vehicles","bank_transactions"]:
     cur.execute(f"SELECT COUNT(*) FROM {table}")
     print(f"  {table:<22} {cur.fetchone()[0]} rows")
-
-cur.close()
-conn.close()
+cur.close(); conn.close()
 print("\nAll done.")
