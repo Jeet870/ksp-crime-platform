@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { login } from "../utils/api";
 
 export default function LoginPage({ onLogin }) {
   const [username, setUsername] = useState("");
@@ -15,21 +16,13 @@ export default function LoginPage({ onLogin }) {
     }
     setLoading(true);
     try {
-      const res = await fetch("http://localhost:8000/login", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ username, password, role }),
-      });
-      const data = await res.json();
-      if (!res.ok) {
-        setError(data.detail || "Login failed.");
-      } else {
-        onLogin(data);
-      }
+      const data = await login(username, password, role);
+      onLogin(data);
     } catch (e) {
-      setError("Cannot connect to server. Is FastAPI running?");
+      setError(e.message || "Cannot connect to server. Is FastAPI running?");
+    } finally {
+      setLoading(false);
     }
-    setLoading(false);
   };
 
   return (

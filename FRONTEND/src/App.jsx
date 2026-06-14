@@ -1,70 +1,53 @@
 import { useState } from "react";
+import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
 import LoginPage from "./components/LoginPage";
-import ChatPage from "./components/ChatPage";
-import Dashboard from "./components/Dashboard";
+import DashboardLayout from "./components/DashboardLayout";
+import ChatInterface from "./components/ChatInterface";
+import MyCases from "./components/pages/MyCases";
+import Search from "./components/pages/Search";
+import DistrictOverview from "./components/pages/DistrictOverview";
+import Analytics from "./components/pages/Analytics";
+import Forecast from "./components/pages/Forecast";
+import MapView from "./components/pages/MapView";
 
 function App() {
-  const [token, setToken] = useState(null);
-  const [role, setRole] = useState(null);
-  const [name, setName] = useState(null);
-  const [page, setPage] = useState("chat");
+  const [auth, setAuth] = useState(null);
+  // auth = { token, role, name, district }
 
   const handleLogin = (data) => {
-    setToken(data.token);
-    setRole(data.role);
-    setName(data.name);
+    setAuth({
+      token: data.token,
+      role: data.role,
+      name: data.name,
+      district: data.district || "N/A",
+    });
   };
 
-  const handleLogout = () => {
-    setToken(null);
-    setRole(null);
-    setName(null);
-    setPage("chat");
-  };
+  const handleLogout = () => setAuth(null);
 
-  if (!token) {
+  if (!auth) {
     return <LoginPage onLogin={handleLogin} />;
   }
 
   return (
-    <div className="flex flex-col h-screen">
-      {/* Top Nav Bar */}
-      <div className="bg-blue-700 text-white px-6 py-3 flex items-center justify-between">
-        <div className="flex items-center gap-4">
-          <span className="font-bold text-lg">KSP Platform</span>
-          <button
-            onClick={() => setPage("chat")}
-            className={`text-sm px-3 py-1 rounded-lg transition ${page === "chat" ? "bg-white text-blue-700 font-semibold" : "hover:bg-blue-600"}`}
-          >
-            Chat
-          </button>
-          <button
-            onClick={() => setPage("dashboard")}
-            className={`text-sm px-3 py-1 rounded-lg transition ${page === "dashboard" ? "bg-white text-blue-700 font-semibold" : "hover:bg-blue-600"}`}
-          >
-            Dashboard
-          </button>
-        </div>
-        <div className="flex items-center gap-3">
-          <span className="text-sm opacity-80">{name} — <span className="font-semibold">{role}</span></span>
-          <button
-            onClick={handleLogout}
-            className="text-sm bg-red-500 hover:bg-red-600 px-3 py-1 rounded-lg transition"
-          >
-            Logout
-          </button>
-        </div>
-      </div>
-
-      {/* Page Content */}
-      <div className="flex-1 overflow-hidden">
-        {page === "chat" ? (
-          <ChatPage token={token} role={role} />
-        ) : (
-          <Dashboard role={role} name={name} />
-        )}
-      </div>
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route
+          path="/"
+          element={<DashboardLayout auth={auth} onLogout={handleLogout} />}
+        >
+          <Route index element={<Navigate to="/chat" replace />} />
+          <Route path="chat" element={<ChatInterface auth={auth} />} />
+          <Route path="my-cases" element={<MyCases />} />
+          <Route path="search" element={<Search />} />
+          <Route path="district-overview" element={<DistrictOverview />} />
+          <Route path="analytics" element={<Analytics />} />
+          <Route path="forecast" element={<Forecast />} />
+          <Route path="map" element={<MapView />} />
+          <Route path="*" element={<Navigate to="/chat" replace />} />
+        </Route>
+      </Routes>
+    </BrowserRouter>
   );
 }
 
