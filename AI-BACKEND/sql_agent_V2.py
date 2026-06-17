@@ -1,17 +1,17 @@
-# sql_agent_v2.py — uses free HuggingFace InferenceClient
+# sql_agent_v2.py — uses Groq API (free tier: 14,400 requests/day)
 import os
 import psycopg2
 from dotenv import load_dotenv
-from huggingface_hub import InferenceClient
+from groq import Groq
 
 load_dotenv()
 
-HF_TOKEN  = os.getenv("HUGGINGFACE_API_TOKEN")
-DB_HOST   = os.getenv("DB_HOST", "localhost")
+GROQ_API_KEY = os.getenv("GROQ_API_KEY")
+DB_HOST   = os.getenv("DB_HOST")
 DB_PORT   = os.getenv("DB_PORT", "5432")
-DB_NAME   = os.getenv("DB_NAME", "ksp_crime_db")
-DB_USER   = os.getenv("DB_USER", "postgres")
-DB_PASS   = os.getenv("DB_PASSWORD", "password")
+DB_NAME   = os.getenv("DB_NAME")
+DB_USER   = os.getenv("DB_USER")
+DB_PASS   = os.getenv("DB_PASSWORD")
 DB_SSL    = os.getenv("DB_SSLMODE", "require")
 
 ROLE_TABLES = {
@@ -22,12 +22,9 @@ ROLE_TABLES = {
     "scrb_director":         ["firs", "accused", "fir_accused", "victims", "vehicles", "bank_transactions"],
 }
 
-# Free model — runs on HuggingFace free servers
-client = InferenceClient(
-    model="Qwen/Qwen2.5-72B-Instruct",
-    token=HF_TOKEN,
-    timeout=60,
-)
+client = Groq(api_key=GROQ_API_KEY)
+MODEL_NAME = "llama-3.1-8b-instant"   # fast + generous free tier
+
 
 def get_db_connection():
     return psycopg2.connect(
@@ -56,7 +53,7 @@ def get_table_schema(tables):
     return "\n".join(schema_parts)
 
 def generate_sql(question, district, role):
-    """Uses Qwen to convert a natural language question to a SQL query."""
+    """Uses Groq (Llama 3.1) to convert a natural language question to a SQL query."""
     tables  = ROLE_TABLES.get(role, ["firs"])
     schema  = get_table_schema(tables)
 
@@ -75,10 +72,11 @@ Question: {question}
 
 SQL:"""
 
-    response = client.chat_completion(
+    response = client.chat.completions.create(
+        model=MODEL_NAME,
         messages=[{"role": "user", "content": prompt}],
         max_tokens=1024,
-        temperature=0.2,
+        temperature=0.1,
     )
     sql = response.choices[0].message.content.strip()
     # Clean up any accidental markdown
@@ -107,7 +105,7 @@ def run_sql(sql):
     return result
 
 def explain_result(question, sql, result):
-    """Uses Qwen to explain the SQL result in plain English."""
+    """Uses Groq (Llama 3.1) to explain the SQL result in plain English."""
     if isinstance(result, dict) and "error" in result:
         return f"There was a database error: {result['error']}"
 
@@ -122,7 +120,8 @@ The database returned these results:
 Write a clear, simple 1-3 sentence answer explaining what was found.
 Be direct. Use plain English. Do not mention SQL."""
 
-    response = client.chat_completion(
+    response = client.chat.completions.create(
+        model=MODEL_NAME,
         messages=[{"role": "user", "content": prompt}],
         max_tokens=1024,
         temperature=0.3,
@@ -155,7 +154,8 @@ def ask(question, district, role):
 Current question: "{question}"
 Rewrite the question replacing pronouns with their actual references from the conversation above.
 Return only the rewritten question, nothing else."""
-            response = client.chat_completion(
+            response = client.chat.completions.create(
+                model=MODEL_NAME,
                 messages=[{"role": "user", "content": resolve_prompt}],
                 max_tokens=100,
                 temperature=0.1,
@@ -182,7 +182,7 @@ Return only the rewritten question, nothing else."""
 
 
 if __name__ == "__main__":
-    print("Testing SQL agent with free Qwen model...\n")
+    print("Testing SQL agent with Groq (Llama 3.1)...\n")
 
     tests = [
         "How many FIRs are there in total?",
