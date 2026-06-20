@@ -25,7 +25,7 @@ connection_string = (
     f"@{DB_HOST}:{DB_PORT}/{DB_NAME}"
     f"?sslmode=require"
 )
- 
+
 db = SQLDatabase.from_uri(
     connection_string,
     include_tables=["firs", "accused", "fir_accused", "victims"]
@@ -105,7 +105,7 @@ Please give a clear, concise answer in plain English."""
  
  
 # ─── STEP 5: Ask a question ───────────────────────────────────────────────────
-question = "What is the description of the FIR where fir_id is 1?"
+question = "give the details of a fir which has a very interesting case?"
 print(f"\nQuestion: {question}")
 print("Thinking...\n")
  

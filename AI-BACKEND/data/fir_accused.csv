@@ -1,399 +1,416 @@
 fir_id,accused_id,role_in_case,arrest_status
-1,12,main accused,absconding
-1,18,accomplice,absconding
-2,5,main accused,absconding
-3,25,main accused,not_arrested
-3,3,accomplice,not_arrested
-4,11,main accused,absconding
+1,15,main accused,arrested
+1,6,accomplice,absconding
+2,5,main accused,not_arrested
+2,19,accomplice,absconding
+3,1,main accused,arrested
+4,28,main accused,absconding
 4,1,accomplice,absconding
-4,17,accomplice,not_arrested
-5,1,main accused,absconding
-5,11,accomplice,arrested
-6,6,main accused,arrested
-6,2,accomplice,absconding
-7,4,main accused,arrested
-7,21,accomplice,absconding
-7,22,accomplice,absconding
-8,24,main accused,arrested
-9,20,main accused,absconding
-10,7,main accused,arrested
-11,29,main accused,arrested
-11,14,accomplice,arrested
-12,13,main accused,arrested
-13,4,main accused,arrested
-13,21,accomplice,not_arrested
-14,14,main accused,absconding
-14,29,accomplice,not_arrested
-15,21,main accused,not_arrested
-15,4,accomplice,absconding
-16,4,main accused,absconding
-17,30,main accused,absconding
-17,5,accomplice,arrested
-17,19,accomplice,absconding
-18,19,main accused,absconding
-19,14,main accused,absconding
-20,4,main accused,not_arrested
-20,16,accomplice,not_arrested
-21,29,main accused,not_arrested
-21,13,accomplice,arrested
-22,13,main accused,absconding
-22,29,accomplice,not_arrested
-22,14,accomplice,absconding
-23,11,main accused,absconding
-24,17,main accused,arrested
-24,1,accomplice,arrested
-24,9,accomplice,arrested
-25,29,main accused,not_arrested
-25,14,accomplice,arrested
-25,13,accomplice,absconding
-26,29,main accused,not_arrested
-26,14,accomplice,absconding
-26,13,accomplice,absconding
-27,16,main accused,arrested
-28,29,main accused,not_arrested
-29,6,main accused,arrested
-30,30,main accused,not_arrested
-30,5,accomplice,absconding
-30,19,accomplice,absconding
-31,14,main accused,absconding
-32,14,main accused,arrested
-33,29,main accused,absconding
-34,19,main accused,arrested
-34,30,accomplice,absconding
-35,16,main accused,absconding
-35,4,accomplice,arrested
-35,22,accomplice,arrested
-36,24,main accused,not_arrested
-36,30,accomplice,absconding
-37,21,main accused,absconding
-37,22,accomplice,absconding
-37,4,accomplice,not_arrested
-38,20,main accused,arrested
-38,6,accomplice,not_arrested
-39,16,main accused,absconding
-40,22,main accused,arrested
-40,16,accomplice,absconding
-40,21,accomplice,absconding
-41,24,main accused,not_arrested
-41,30,accomplice,not_arrested
-42,23,main accused,arrested
-42,15,accomplice,arrested
-43,6,main accused,arrested
-43,20,accomplice,absconding
-43,7,accomplice,arrested
-44,5,main accused,arrested
-44,30,accomplice,absconding
-45,13,main accused,arrested
-45,14,accomplice,absconding
-45,29,accomplice,not_arrested
-46,27,main accused,not_arrested
-46,26,accomplice,not_arrested
-46,9,accomplice,arrested
-47,29,main accused,not_arrested
-47,14,accomplice,absconding
-47,13,accomplice,absconding
-48,22,main accused,not_arrested
-49,1,main accused,absconding
-49,10,accomplice,arrested
-49,9,accomplice,not_arrested
-50,7,main accused,absconding
-51,7,main accused,not_arrested
-51,18,accomplice,not_arrested
-51,20,accomplice,arrested
-52,23,main accused,arrested
-53,21,main accused,not_arrested
-54,4,main accused,absconding
-55,29,main accused,not_arrested
-56,24,main accused,arrested
-56,30,accomplice,arrested
-57,19,main accused,absconding
-57,5,accomplice,absconding
-57,30,accomplice,not_arrested
-58,11,main accused,not_arrested
-58,27,accomplice,absconding
-58,9,accomplice,not_arrested
-59,28,main accused,absconding
-59,3,accomplice,not_arrested
-60,16,main accused,not_arrested
-60,21,accomplice,not_arrested
-61,24,main accused,absconding
-61,30,accomplice,arrested
-62,8,main accused,arrested
-62,24,accomplice,arrested
-62,5,accomplice,absconding
-63,15,main accused,arrested
-63,6,accomplice,arrested
-63,20,accomplice,not_arrested
-64,5,main accused,not_arrested
-64,8,accomplice,absconding
-64,24,accomplice,arrested
-65,26,main accused,arrested
-65,28,accomplice,absconding
-66,24,main accused,arrested
-67,2,main accused,arrested
-68,28,main accused,absconding
-68,9,accomplice,absconding
-68,27,accomplice,arrested
-69,7,main accused,not_arrested
-69,2,accomplice,arrested
-69,6,accomplice,absconding
-70,30,main accused,absconding
-70,5,accomplice,absconding
-71,14,main accused,not_arrested
-71,13,accomplice,absconding
-71,29,accomplice,not_arrested
-72,9,main accused,not_arrested
-72,10,accomplice,absconding
-73,29,main accused,arrested
-74,21,main accused,not_arrested
-74,4,accomplice,absconding
-74,16,accomplice,absconding
-75,16,main accused,not_arrested
-76,16,main accused,arrested
-76,4,accomplice,arrested
-77,29,main accused,absconding
-77,14,accomplice,arrested
-77,13,accomplice,arrested
-78,2,main accused,absconding
-78,20,accomplice,absconding
-79,6,main accused,not_arrested
-80,9,main accused,absconding
-80,27,accomplice,absconding
-80,1,accomplice,not_arrested
-81,14,main accused,absconding
-81,29,accomplice,absconding
-81,13,accomplice,not_arrested
-82,23,main accused,not_arrested
-83,6,main accused,arrested
-83,12,accomplice,not_arrested
-84,16,main accused,not_arrested
-84,4,accomplice,absconding
-85,14,main accused,arrested
-85,29,accomplice,absconding
-85,13,accomplice,absconding
-86,30,main accused,absconding
-87,29,main accused,arrested
-88,29,main accused,absconding
-88,13,accomplice,not_arrested
-89,21,main accused,arrested
-89,4,accomplice,not_arrested
-90,29,main accused,absconding
-90,14,accomplice,not_arrested
-90,13,accomplice,absconding
-91,29,main accused,absconding
-91,14,accomplice,not_arrested
-92,25,main accused,absconding
-93,22,main accused,absconding
-93,4,accomplice,absconding
-93,16,accomplice,not_arrested
-94,14,main accused,absconding
-94,29,accomplice,not_arrested
-95,13,main accused,not_arrested
-95,29,accomplice,absconding
-95,14,accomplice,arrested
-96,10,main accused,absconding
-97,17,main accused,absconding
-97,27,accomplice,absconding
-98,29,main accused,not_arrested
+5,19,main accused,absconding
+5,24,accomplice,not_arrested
+5,30,accomplice,arrested
+6,14,main accused,absconding
+6,13,accomplice,arrested
+6,29,accomplice,absconding
+7,20,main accused,absconding
+8,20,main accused,arrested
+8,2,accomplice,arrested
+8,7,accomplice,absconding
+9,18,main accused,not_arrested
+9,7,accomplice,arrested
+10,23,main accused,arrested
+10,15,accomplice,arrested
+10,18,accomplice,absconding
+11,22,main accused,absconding
+11,4,accomplice,absconding
+12,13,main accused,not_arrested
+12,29,accomplice,arrested
+12,14,accomplice,not_arrested
+13,29,main accused,arrested
+13,14,accomplice,absconding
+14,22,main accused,arrested
+14,16,accomplice,not_arrested
+15,13,main accused,arrested
+15,14,accomplice,arrested
+15,29,accomplice,absconding
+16,4,main accused,arrested
+16,21,accomplice,absconding
+16,22,accomplice,absconding
+17,22,main accused,arrested
+18,30,main accused,absconding
+19,24,main accused,absconding
+19,5,accomplice,arrested
+19,19,accomplice,arrested
+20,29,main accused,arrested
+20,14,accomplice,arrested
+21,4,main accused,arrested
+22,29,main accused,absconding
+22,13,accomplice,arrested
+23,14,main accused,not_arrested
+23,29,accomplice,absconding
+24,25,main accused,arrested
+24,17,accomplice,not_arrested
+25,3,main accused,absconding
+25,27,accomplice,absconding
+25,1,accomplice,absconding
+26,29,main accused,absconding
+27,29,main accused,arrested
+28,4,main accused,absconding
+28,16,accomplice,not_arrested
+29,13,main accused,not_arrested
+29,14,accomplice,not_arrested
+29,29,accomplice,absconding
+30,23,main accused,arrested
+31,8,main accused,not_arrested
+31,30,accomplice,absconding
+31,19,accomplice,not_arrested
+32,13,main accused,arrested
+32,14,accomplice,absconding
+32,29,accomplice,absconding
+33,13,main accused,arrested
+34,29,main accused,absconding
+35,30,main accused,not_arrested
+35,5,accomplice,arrested
+36,21,main accused,absconding
+36,4,accomplice,absconding
+36,16,accomplice,arrested
+37,8,main accused,arrested
+38,21,main accused,arrested
+38,4,accomplice,absconding
+38,22,accomplice,absconding
+39,23,main accused,absconding
+40,4,main accused,not_arrested
+40,16,accomplice,arrested
+40,22,accomplice,arrested
+41,22,main accused,arrested
+41,16,accomplice,absconding
+41,21,accomplice,absconding
+42,5,main accused,not_arrested
+43,6,main accused,not_arrested
+43,23,accomplice,not_arrested
+43,7,accomplice,not_arrested
+44,15,main accused,arrested
+44,18,accomplice,absconding
+44,23,accomplice,absconding
+45,19,main accused,arrested
+45,24,accomplice,arrested
+46,13,main accused,absconding
+46,29,accomplice,absconding
+47,25,main accused,arrested
+47,11,accomplice,absconding
+47,17,accomplice,absconding
+48,14,main accused,not_arrested
+48,29,accomplice,not_arrested
+49,22,main accused,arrested
+49,21,accomplice,arrested
+50,28,main accused,arrested
+50,3,accomplice,absconding
+50,11,accomplice,arrested
+51,6,main accused,arrested
+51,18,accomplice,arrested
+52,2,main accused,absconding
+52,20,accomplice,not_arrested
+52,15,accomplice,absconding
+53,2,main accused,absconding
+54,22,main accused,arrested
+54,21,accomplice,not_arrested
+55,16,main accused,absconding
+55,21,accomplice,not_arrested
+56,14,main accused,absconding
+57,5,main accused,absconding
+57,24,accomplice,arrested
+57,8,accomplice,absconding
+58,30,main accused,absconding
+59,27,main accused,arrested
+60,9,main accused,absconding
+60,28,accomplice,absconding
+61,16,main accused,not_arrested
+61,21,accomplice,arrested
+61,22,accomplice,arrested
+62,8,main accused,not_arrested
+62,5,accomplice,not_arrested
+63,5,main accused,absconding
+64,18,main accused,not_arrested
+65,24,main accused,arrested
+65,5,accomplice,absconding
+66,3,main accused,absconding
+66,27,accomplice,not_arrested
+67,19,main accused,absconding
+67,8,accomplice,not_arrested
+67,24,accomplice,not_arrested
+68,6,main accused,not_arrested
+68,15,accomplice,arrested
+68,7,accomplice,absconding
+69,17,main accused,not_arrested
+69,28,accomplice,not_arrested
+70,2,main accused,not_arrested
+70,15,accomplice,arrested
+70,6,accomplice,arrested
+71,30,main accused,absconding
+72,13,main accused,arrested
+72,29,accomplice,arrested
+73,28,main accused,absconding
+73,3,accomplice,arrested
+74,21,main accused,arrested
+74,22,accomplice,not_arrested
+75,26,main accused,absconding
+75,28,accomplice,arrested
+75,10,accomplice,absconding
+76,13,main accused,arrested
+76,29,accomplice,arrested
+77,28,main accused,absconding
+77,9,accomplice,absconding
+77,27,accomplice,arrested
+78,8,main accused,not_arrested
+78,5,accomplice,arrested
+78,24,accomplice,absconding
+79,29,main accused,absconding
+79,13,accomplice,absconding
+80,21,main accused,not_arrested
+80,4,accomplice,absconding
+80,22,accomplice,not_arrested
+81,16,main accused,not_arrested
+81,4,accomplice,absconding
+82,7,main accused,absconding
+83,27,main accused,absconding
+83,11,accomplice,absconding
+83,9,accomplice,not_arrested
+84,28,main accused,arrested
+84,3,accomplice,not_arrested
+85,7,main accused,arrested
+85,2,accomplice,arrested
+86,22,main accused,arrested
+86,4,accomplice,not_arrested
+86,21,accomplice,absconding
+87,5,main accused,not_arrested
+87,30,accomplice,absconding
+87,24,accomplice,arrested
+88,4,main accused,absconding
+88,21,accomplice,not_arrested
+88,16,accomplice,not_arrested
+89,30,main accused,not_arrested
+90,23,main accused,not_arrested
+91,29,main accused,not_arrested
+91,13,accomplice,arrested
+92,23,main accused,arrested
+92,20,accomplice,arrested
+93,22,main accused,arrested
+93,16,accomplice,arrested
+94,5,main accused,arrested
+94,30,accomplice,not_arrested
+94,19,accomplice,absconding
+95,21,main accused,not_arrested
+96,5,main accused,not_arrested
+96,8,accomplice,absconding
+97,15,main accused,not_arrested
+97,7,accomplice,absconding
+97,23,accomplice,not_arrested
+98,14,main accused,not_arrested
+98,29,accomplice,absconding
 98,13,accomplice,absconding
-98,14,accomplice,arrested
-99,7,main accused,not_arrested
-100,24,main accused,not_arrested
-100,5,accomplice,arrested
-100,30,accomplice,not_arrested
-101,2,main accused,absconding
-102,22,main accused,absconding
-102,21,accomplice,absconding
-103,29,main accused,arrested
-103,13,accomplice,absconding
-104,26,main accused,arrested
-104,1,accomplice,absconding
-105,11,main accused,absconding
-105,10,accomplice,absconding
-105,1,accomplice,absconding
-106,13,main accused,not_arrested
-106,29,accomplice,arrested
-106,14,accomplice,absconding
-107,8,main accused,arrested
-108,20,main accused,absconding
-108,7,accomplice,not_arrested
-109,12,main accused,arrested
-109,15,accomplice,absconding
-110,4,main accused,absconding
-110,22,accomplice,absconding
-110,16,accomplice,absconding
-111,21,main accused,arrested
-111,16,accomplice,absconding
-112,24,main accused,not_arrested
-113,4,main accused,not_arrested
-113,16,accomplice,absconding
-113,22,accomplice,arrested
-114,4,main accused,not_arrested
-114,21,accomplice,arrested
-114,16,accomplice,absconding
-115,27,main accused,absconding
-115,11,accomplice,not_arrested
-116,22,main accused,not_arrested
-116,4,accomplice,not_arrested
-117,26,main accused,arrested
-117,1,accomplice,not_arrested
-117,28,accomplice,arrested
-118,8,main accused,not_arrested
-118,30,accomplice,not_arrested
-119,2,main accused,not_arrested
-119,18,accomplice,arrested
-120,6,main accused,absconding
-120,12,accomplice,absconding
-121,13,main accused,not_arrested
-121,29,accomplice,not_arrested
-122,16,main accused,not_arrested
-122,21,accomplice,arrested
-123,12,main accused,arrested
-123,23,accomplice,arrested
-123,18,accomplice,absconding
-124,14,main accused,arrested
-125,16,main accused,arrested
-126,19,main accused,arrested
-126,8,accomplice,arrested
-126,5,accomplice,absconding
-127,24,main accused,arrested
-127,5,accomplice,not_arrested
-127,19,accomplice,not_arrested
-128,14,main accused,not_arrested
-128,29,accomplice,arrested
-128,13,accomplice,absconding
-129,14,main accused,absconding
-129,13,accomplice,arrested
-130,20,main accused,not_arrested
-131,1,main accused,not_arrested
-131,27,accomplice,absconding
-131,17,accomplice,arrested
-132,5,main accused,not_arrested
-132,24,accomplice,absconding
-133,2,main accused,absconding
-134,20,main accused,absconding
-135,14,main accused,not_arrested
-136,11,main accused,arrested
-136,9,accomplice,not_arrested
-136,28,accomplice,not_arrested
-137,17,main accused,not_arrested
-137,28,accomplice,not_arrested
-137,9,accomplice,arrested
-138,17,main accused,not_arrested
-138,28,accomplice,not_arrested
-139,9,main accused,absconding
-139,28,accomplice,absconding
-140,6,main accused,absconding
-141,12,main accused,not_arrested
-141,15,accomplice,not_arrested
-142,16,main accused,absconding
-143,26,main accused,arrested
-144,25,main accused,not_arrested
-145,27,main accused,absconding
-146,18,main accused,not_arrested
-146,20,accomplice,not_arrested
-146,12,accomplice,absconding
-147,2,main accused,absconding
-147,12,accomplice,arrested
-147,23,accomplice,arrested
-148,21,main accused,not_arrested
-149,5,main accused,not_arrested
-149,24,accomplice,not_arrested
-149,19,accomplice,not_arrested
-150,21,main accused,arrested
-150,16,accomplice,not_arrested
-151,18,main accused,absconding
-152,10,main accused,not_arrested
-152,27,accomplice,not_arrested
-152,9,accomplice,not_arrested
-153,27,main accused,arrested
-153,26,accomplice,not_arrested
-153,28,accomplice,absconding
-154,26,main accused,arrested
-154,9,accomplice,absconding
-155,22,main accused,absconding
-155,21,accomplice,absconding
-156,13,main accused,arrested
-156,29,accomplice,not_arrested
-157,17,main accused,not_arrested
-158,11,main accused,not_arrested
-158,28,accomplice,not_arrested
-158,25,accomplice,not_arrested
-159,28,main accused,not_arrested
-159,27,accomplice,arrested
-159,26,accomplice,arrested
-160,13,main accused,absconding
-161,29,main accused,not_arrested
-162,3,main accused,not_arrested
-162,10,accomplice,arrested
-162,9,accomplice,arrested
-163,22,main accused,absconding
-164,1,main accused,not_arrested
-165,5,main accused,absconding
-165,30,accomplice,arrested
-165,8,accomplice,arrested
-166,20,main accused,arrested
-166,7,accomplice,absconding
-166,6,accomplice,not_arrested
-167,8,main accused,absconding
-167,30,accomplice,arrested
-168,13,main accused,absconding
-169,14,main accused,not_arrested
-169,29,accomplice,absconding
-170,29,main accused,arrested
-170,14,accomplice,absconding
-171,8,main accused,absconding
-171,24,accomplice,absconding
-171,19,accomplice,absconding
-172,29,main accused,not_arrested
-172,14,accomplice,not_arrested
-173,10,main accused,not_arrested
-173,3,accomplice,not_arrested
-173,26,accomplice,not_arrested
-174,13,main accused,arrested
-174,14,accomplice,arrested
-175,13,main accused,not_arrested
-175,14,accomplice,absconding
-175,29,accomplice,arrested
-176,24,main accused,arrested
-176,30,accomplice,not_arrested
-176,8,accomplice,not_arrested
-177,16,main accused,arrested
-177,4,accomplice,not_arrested
-177,22,accomplice,absconding
-178,22,main accused,arrested
-178,4,accomplice,absconding
-179,20,main accused,arrested
-179,23,accomplice,not_arrested
-179,12,accomplice,arrested
-180,16,main accused,absconding
+99,16,main accused,absconding
+99,22,accomplice,absconding
+100,14,main accused,absconding
+100,29,accomplice,not_arrested
+101,14,main accused,absconding
+101,13,accomplice,arrested
+101,29,accomplice,not_arrested
+102,7,main accused,absconding
+102,2,accomplice,not_arrested
+102,6,accomplice,not_arrested
+103,28,main accused,not_arrested
+103,1,accomplice,absconding
+103,9,accomplice,arrested
+104,8,main accused,not_arrested
+105,24,main accused,not_arrested
+105,5,accomplice,arrested
+105,30,accomplice,not_arrested
+106,4,main accused,absconding
+107,22,main accused,absconding
+107,21,accomplice,absconding
+108,29,main accused,arrested
+108,13,accomplice,absconding
+109,24,main accused,arrested
+109,5,accomplice,absconding
+110,15,main accused,absconding
+110,6,accomplice,absconding
+110,2,accomplice,absconding
+111,12,main accused,absconding
+111,15,accomplice,arrested
+111,6,accomplice,not_arrested
+112,4,main accused,arrested
+113,21,main accused,not_arrested
+114,24,main accused,absconding
+114,30,accomplice,arrested
+115,4,main accused,arrested
+115,21,accomplice,absconding
+115,22,accomplice,not_arrested
+116,21,main accused,arrested
+116,16,accomplice,absconding
+116,22,accomplice,arrested
+117,25,main accused,not_arrested
+117,1,accomplice,arrested
+118,4,main accused,arrested
+118,21,accomplice,absconding
+119,17,main accused,absconding
+119,3,accomplice,not_arrested
+120,30,main accused,not_arrested
+120,19,accomplice,not_arrested
+120,24,accomplice,absconding
+121,12,main accused,not_arrested
+121,20,accomplice,not_arrested
+122,23,main accused,not_arrested
+122,15,accomplice,arrested
+122,2,accomplice,not_arrested
+123,14,main accused,absconding
+124,16,main accused,not_arrested
+125,18,main accused,absconding
+125,15,accomplice,arrested
+126,14,main accused,arrested
+126,13,accomplice,not_arrested
+126,29,accomplice,absconding
+127,21,main accused,not_arrested
+127,4,accomplice,not_arrested
+127,22,accomplice,not_arrested
+128,30,main accused,not_arrested
+129,8,main accused,not_arrested
+130,13,main accused,not_arrested
+130,29,accomplice,arrested
+130,14,accomplice,arrested
+131,13,main accused,absconding
+132,7,main accused,arrested
+132,20,accomplice,arrested
+133,26,main accused,absconding
+134,30,main accused,arrested
+135,18,main accused,not_arrested
+135,15,accomplice,not_arrested
+136,15,main accused,absconding
+136,12,accomplice,not_arrested
+136,6,accomplice,not_arrested
+137,29,main accused,arrested
+138,27,main accused,not_arrested
+139,27,main accused,absconding
+139,1,accomplice,not_arrested
+140,9,main accused,arrested
+140,26,accomplice,absconding
+141,26,main accused,arrested
+141,17,accomplice,absconding
+141,1,accomplice,arrested
+142,6,main accused,not_arrested
+142,7,accomplice,absconding
+143,7,main accused,not_arrested
+143,15,accomplice,arrested
+144,22,main accused,not_arrested
+144,21,accomplice,not_arrested
+145,26,main accused,not_arrested
+146,25,main accused,absconding
+147,17,main accused,not_arrested
+147,25,accomplice,not_arrested
+148,7,main accused,absconding
+149,12,main accused,absconding
+149,20,accomplice,not_arrested
+149,2,accomplice,arrested
+150,22,main accused,arrested
+150,16,accomplice,absconding
+150,4,accomplice,arrested
+151,5,main accused,not_arrested
+151,8,accomplice,not_arrested
+152,21,main accused,not_arrested
+153,15,main accused,absconding
+153,23,accomplice,arrested
+154,3,main accused,arrested
+154,9,accomplice,arrested
+155,26,main accused,not_arrested
+155,3,accomplice,absconding
+156,11,main accused,not_arrested
+156,17,accomplice,absconding
+157,21,main accused,not_arrested
+157,16,accomplice,arrested
+157,4,accomplice,not_arrested
+158,29,main accused,not_arrested
+158,13,accomplice,not_arrested
+158,14,accomplice,not_arrested
+159,27,main accused,arrested
+159,26,accomplice,not_arrested
+159,28,accomplice,absconding
+160,26,main accused,arrested
+160,9,accomplice,absconding
+161,25,main accused,arrested
+161,28,accomplice,arrested
+162,14,main accused,arrested
+163,14,main accused,absconding
+163,29,accomplice,not_arrested
+164,25,main accused,not_arrested
+164,11,accomplice,absconding
+164,26,accomplice,absconding
+165,22,main accused,arrested
+165,16,accomplice,arrested
+165,4,accomplice,arrested
+166,10,main accused,arrested
+166,11,accomplice,arrested
+166,3,accomplice,not_arrested
+167,5,main accused,arrested
+168,2,main accused,not_arrested
+168,23,accomplice,absconding
+169,5,main accused,not_arrested
+170,13,main accused,not_arrested
+170,29,accomplice,arrested
+170,14,accomplice,arrested
+171,14,main accused,arrested
+171,29,accomplice,absconding
+171,13,accomplice,arrested
+172,13,main accused,absconding
+173,19,main accused,not_arrested
+173,24,accomplice,absconding
+174,29,main accused,arrested
+174,14,accomplice,absconding
+175,9,main accused,absconding
+175,26,accomplice,absconding
+175,25,accomplice,absconding
+176,14,main accused,absconding
+176,29,accomplice,arrested
+176,13,accomplice,arrested
+177,14,main accused,not_arrested
+177,29,accomplice,not_arrested
+178,19,main accused,arrested
+179,16,main accused,not_arrested
+180,22,main accused,arrested
 180,21,accomplice,absconding
-181,14,main accused,not_arrested
-181,29,accomplice,arrested
-181,13,accomplice,arrested
-182,16,main accused,not_arrested
-183,22,main accused,absconding
-184,15,main accused,absconding
-184,18,accomplice,not_arrested
-185,19,main accused,arrested
-186,1,main accused,absconding
-187,8,main accused,arrested
-188,19,main accused,absconding
-188,8,accomplice,not_arrested
-189,2,main accused,arrested
-189,6,accomplice,arrested
-189,23,accomplice,not_arrested
-190,17,main accused,not_arrested
-191,14,main accused,not_arrested
-191,29,accomplice,absconding
-192,17,main accused,arrested
-193,13,main accused,not_arrested
-194,3,main accused,not_arrested
-194,27,accomplice,arrested
-195,15,main accused,not_arrested
-196,3,main accused,absconding
-197,22,main accused,not_arrested
-198,5,main accused,arrested
-199,29,main accused,absconding
-199,13,accomplice,absconding
-200,22,main accused,not_arrested
+181,23,main accused,arrested
+181,7,accomplice,not_arrested
+182,16,main accused,absconding
+182,4,accomplice,not_arrested
+183,14,main accused,absconding
+184,22,main accused,arrested
+184,4,accomplice,absconding
+185,22,main accused,not_arrested
+185,16,accomplice,arrested
+185,4,accomplice,not_arrested
+186,12,main accused,absconding
+186,15,accomplice,absconding
+186,20,accomplice,not_arrested
+187,30,main accused,not_arrested
+187,19,accomplice,arrested
+188,9,main accused,arrested
+189,5,main accused,absconding
+189,24,accomplice,not_arrested
+190,30,main accused,arrested
+190,24,accomplice,not_arrested
+191,7,main accused,arrested
+192,1,main accused,not_arrested
+192,9,accomplice,not_arrested
+192,3,accomplice,arrested
+193,14,main accused,arrested
+193,13,accomplice,arrested
+193,29,accomplice,arrested
+194,10,main accused,not_arrested
+194,17,accomplice,not_arrested
+195,14,main accused,absconding
+195,29,accomplice,arrested
+196,3,main accused,arrested
+196,9,accomplice,not_arrested
+197,6,main accused,not_arrested
+197,15,accomplice,arrested
+198,11,main accused,not_arrested
+199,4,main accused,absconding
+200,24,main accused,not_arrested

@@ -8,26 +8,29 @@ fake = Faker('en_IN')
 random.seed(42)
 
 DISTRICTS = [
-    "Bengaluru Urban", "Bengaluru Rural", "Mysuru",
-    "Hubli-Dharwad", "Mangaluru"
+    "Bengaluru East",
+    "Bengaluru Central", 
+    "Bengaluru West",
+    "Bengaluru South",
+    "Bengaluru North",
 ]
 
 POLICE_STATIONS = {
-    "Bengaluru Urban": ["Koramangala PS","BTM Layout PS","MG Road PS","Whitefield PS","Indiranagar PS"],
-    "Bengaluru Rural": ["Yelahanka PS","Devanahalli PS","Kengeri PS"],
-    "Mysuru":          ["Mysuru North PS","Mysuru South PS","Nanjangud PS"],
-    "Hubli-Dharwad":   ["Hubli PS","Dharwad PS","Gokul Road PS"],
-    "Mangaluru":       ["Mangaluru North PS","Mangaluru South PS","Bunder PS"],
+    "Bengaluru East":    ["Whitefield PS", "Marathahalli PS", "Indiranagar PS"],
+    "Bengaluru Central": ["MG Road PS", "Cubbon Park PS", "Shivajinagar PS"],
+    "Bengaluru West":    ["Rajajinagar PS", "Vijayanagar PS", "Magadi Road PS"],
+    "Bengaluru South":   ["BTM Layout PS", "Koramangala PS", "JP Nagar PS"],
+    "Bengaluru North":   ["Yelahanka PS", "Hebbal PS", "Devanahalli PS"],
 }
 
 CRIME_TYPES = ["chain_snatching","burglary","cyber_fraud","vehicle_theft","assault","robbery"]
 
 DISTRICT_COORDS = {
-    "Bengaluru Urban": (12.9716, 77.5946),
-    "Bengaluru Rural": (13.0827, 77.5800),
-    "Mysuru":          (12.2958, 76.6394),
-    "Hubli-Dharwad":   (15.3647, 75.1240),
-    "Mangaluru":       (12.9141, 74.8560),
+    "Bengaluru East":    (12.9784, 77.6408),
+    "Bengaluru Central": (12.9716, 77.5946),
+    "Bengaluru West":    (12.9698, 77.5500),
+    "Bengaluru South":   (12.9141, 77.5800),
+    "Bengaluru North":   (13.0358, 77.5970),
 }
 
 VEHICLE_MAKES  = ["Honda Activa","Bajaj Pulsar","Maruti Swift","TVS Jupiter","Hero Splendor"]
