@@ -10,7 +10,9 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "cytoscape": "^3.34.0",
     "react": "^19.2.6",
+    "react-cytoscapejs": "^2.0.0",
     "react-dom": "^19.2.6",
     "react-router-dom": "^7.17.0"
   },
