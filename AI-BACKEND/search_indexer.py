@@ -6,7 +6,7 @@ import psycopg2
 import meilisearch
 from dotenv import load_dotenv
 
-load_dotenv(r"C:\ksp-crime-platform\AI-BACKEND\.env")
+load_dotenv()
 
 MEILI_KEY = os.getenv("MEILI_MASTER_KEY")
 ms = meilisearch.Client("http://localhost:7700", MEILI_KEY)
