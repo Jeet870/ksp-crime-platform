@@ -1,4 +1,4 @@
-import { useState } from "react";
+import CrimeNetworkGraph from "./components/CrimeNetworkGraph";import { useState } from "react";
 import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
 import LoginPage from "./components/LoginPage";
 import DashboardLayout from "./components/DashboardLayout";
@@ -45,6 +45,7 @@ function App() {
           <Route path="forecast" element={<Forecast />} />
           <Route path="map" element={<MapView />} />
           <Route path="*" element={<Navigate to="/chat" replace />} />
+          <Route path="graph" element={<CrimeNetworkGraph auth={auth} />} />
         </Route>
       </Routes>
     </BrowserRouter>
