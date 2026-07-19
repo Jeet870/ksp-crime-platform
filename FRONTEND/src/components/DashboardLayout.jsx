@@ -2,17 +2,18 @@ import { NavLink, Outlet } from "react-router-dom";
 
 const ROLE_NAV = {
   Constable: [
-    { label: "Chat", path: "/chat", icon: "💬" },
+    { label: "Chat",     path: "/chat",     icon: "💬" },
     { label: "My Cases", path: "/my-cases", icon: "📁" },
-    { label: "Search", path: "/search", icon: "🔍" },
+    { label: "Search",   path: "/search",   icon: "🔍" },
   ],
   SP: [
-    { label: "Chat", path: "/chat", icon: "💬" },
-    { label: "District Overview", path: "/district-overview", icon: "🗺️" },
-    { label: "Analytics", path: "/analytics", icon: "📊" },
-    { label: "Forecast", path: "/forecast", icon: "🔮" },
-    { label: "Map", path: "/map", icon: "🗾" },
-    { label: "Search", path: "/search", icon: "🔍" },
+    { label: "Chat",             path: "/chat",             icon: "💬" },
+    { label: "District Overview",path: "/district-overview",icon: "🗺️" },
+    { label: "Analytics",        path: "/analytics",        icon: "📊" },
+    { label: "Forecast",         path: "/forecast",         icon: "🔮" },
+    { label: "Map",              path: "/map",              icon: "🗾" },
+    { label: "Crime Graph",      path: "/graph",            icon: "🕸️" },  
+    { label: "Search",           path: "/search",           icon: "🔍" },
   ],
 };
 

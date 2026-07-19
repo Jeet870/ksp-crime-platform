@@ -3,7 +3,7 @@ import psycopg2
 from neo4j import GraphDatabase
 from dotenv import load_dotenv
 
-load_dotenv(r"C:\ksp-crime-platform\AI-BACKEND\.env")
+load_dotenv()
 
 pg = psycopg2.connect(
     host=os.getenv("DB_HOST"),

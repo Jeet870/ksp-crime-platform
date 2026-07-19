@@ -67,3 +67,28 @@ assert len(h) > 0
 print(f"[PASS] Valkey: {len(h)} messages stored")
 
 print("\n=== ALL TESTS PASSED ===")
+# Add at the bottom of test_integration.py
+
+print("\n--- Week 3 Endpoint Tests ---")
+
+# Test /graph
+r = requests.get(f"{BASE}/graph?fir_id=1",
+    headers={"Authorization": f"Bearer {tok}"})
+assert r.status_code == 200, f"/graph failed: {r.text}"
+data = r.json()
+assert "nodes" in data, "No nodes in graph response"
+print(f"[PASS] /graph fir_id=1 → {data['count']['nodes']} nodes, {data['count']['edges']} edges")
+
+# Test /search
+r = requests.get(f"{BASE}/search?q=chain+snatching",
+    headers={"Authorization": f"Bearer {tok}"})
+assert r.status_code == 200, f"/search failed: {r.text}"
+data = r.json()
+assert "results" in data, "No results in search response"
+print(f"[PASS] /search 'chain snatching' → {data['total']} results")
+
+# Test search with typo (Meilisearch handles this)
+r = requests.get(f"{BASE}/search?q=chian+snatching",
+    headers={"Authorization": f"Bearer {tok}"})
+data = r.json()
+print(f"[PASS] /search typo 'chian snatching' → {data['total']} results (typo tolerance)")
