@@ -15,9 +15,14 @@ pg = psycopg2.connect(
 )
 cur = pg.cursor()
 
+NEO4J_URI = os.getenv("NEO4J_URI")
+NEO4J_USER = os.getenv("NEO4J_USER")
+NEO4J_PASSWORD = os.getenv("NEO4J_PASSWORD")
+print(f"Connecting to Neo4j at: {NEO4J_URI}")
+
 driver = GraphDatabase.driver(
-    os.getenv("NEO4J_URI", "neo4j://127.0.0.1:7687"),
-    auth=(os.getenv("NEO4J_USER", "neo4j"), os.getenv("NEO4J_PASSWORD", "ksp12345"))
+    NEO4J_URI,
+    auth=(NEO4J_USER, NEO4J_PASSWORD)
 )
 
 def clear_graph(s):
@@ -96,7 +101,7 @@ def verify(s):
         print(f"    {rec['a.name']}: {rec['n']} FIRs")
 
 if __name__ == "__main__":
-    with driver.session() as s:
+    with driver.session(database="8ed95808") as s:
         clear_graph(s)
         load_accused(s)
         load_firs(s)

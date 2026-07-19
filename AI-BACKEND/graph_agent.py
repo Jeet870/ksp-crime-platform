@@ -46,14 +46,14 @@ def enforce_rbac(cypher: str, district: str, role: str) -> str:
 
 class GraphAgent:
     def __init__(self):
-        # Connect to your local Neo4j database
         self.driver = GraphDatabase.driver(
-            os.getenv("NEO4J_URI", "neo4j://127.0.0.1:7687"),
+            os.getenv("NEO4J_URI"),
             auth=(
-                os.getenv("NEO4J_USER", "neo4j"),
-                os.getenv("NEO4J_PASSWORD", "ksp12345")
+                os.getenv("NEO4J_USER"),
+                os.getenv("NEO4J_PASSWORD")
             )
         )
+        self.database = os.getenv("NEO4J_DATABASE", "neo4j")
 
     def close(self):
         self.driver.close()
@@ -103,7 +103,7 @@ Cypher:"""
         cypher = enforce_rbac(cypher, district, role)  # Safety RBAC check
 
         try:
-            with self.driver.session() as session:
+            with self.driver.session(database=self.database) as session:
                 result = session.run(cypher)
                 records = []
                 for record in result:
@@ -148,7 +148,7 @@ RETURN a, f, r, collect({{caller: a.accused_id, receiver: other.accused_id,
 LIMIT 25
 """
         try:
-            with self.driver.session() as session:
+            with self.driver.session(database=self.database) as session:
                 result = session.run(cypher)
                 nodes  = {}
                 edges  = []
