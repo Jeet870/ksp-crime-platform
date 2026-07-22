@@ -1,10 +1,12 @@
 export default function MyCases() {
   return (
-    <div className="p-8">
-      <h1 className="text-2xl font-bold text-gray-800 mb-2">📁 My Cases</h1>
-      <p className="text-gray-500">Your assigned cases will appear here.</p>
-      <div className="mt-6 bg-white border border-gray-100 rounded-2xl p-6 text-center text-gray-400 shadow-sm">
-        Coming soon — case list will be loaded from backend.
+    <div className="placeholder-page">
+      <div className="page-eyebrow">Karnataka State Police · My Cases</div>
+      <div className="page-title">📁 My Cases</div>
+      <div className="page-subtitle">Your assigned cases</div>
+      <div className="placeholder-card">
+        <div className="icon">📁</div>
+        <p>This section is under development and will be available soon.</p>
       </div>
     </div>
   );

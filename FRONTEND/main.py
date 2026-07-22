@@ -14,14 +14,16 @@ app.add_middleware(
 )
 
 FAKE_USERS = {
-    "constable1": {"password": "pass123", "role": "Constable", "name": "Ravi Kumar"},
-    "sp1":        {"password": "pass123", "role": "SP",         "name": "Priya Sharma"},
+    "KSP-CON-001": {"password": "ksp1234", "role": "Constable", "name": "Ravi Kumar"},
+    "KSP-IO-001":  {"password": "ksp1234", "role": "IO",        "name": "Suresh Naik"},
+    "KSP-SP-001":  {"password": "ksp1234", "role": "SP",        "name": "Priya Sharma"},
+    "KSP-ANA-001": {"password": "ksp1234", "role": "Analyst",   "name": "Meena Rao"},
+    "KSP-DIR-001": {"password": "ksp1234", "role": "Director",  "name": "Vikram Singh"},
 }
 
 class LoginRequest(BaseModel):
     username: str
     password: str
-    role: str
 
 class AskRequest(BaseModel):
     message: str
@@ -48,8 +50,7 @@ def login(req: LoginRequest):
     user = FAKE_USERS.get(req.username)
     if not user or user["password"] != req.password:
         raise HTTPException(status_code=401, detail="Invalid username or password")
-    if user["role"] != req.role:
-        raise HTTPException(status_code=401, detail=f"Role mismatch. This user is a {user['role']}")
+    
     token = make_fake_jwt(req.username, user["role"], user["name"])
     return {"token": token, "role": user["role"], "name": user["name"]}
 
