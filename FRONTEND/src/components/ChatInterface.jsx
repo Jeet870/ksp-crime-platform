@@ -24,8 +24,9 @@ export default function ChatInterface({ auth }) {
     setLoading(true);
     try {
       const data = await askQuestion(userMsg.text, sessionId, auth.token);
-      setMessages((prev) => [...prev, {
-        id: Date.now()+1, role: "agent", text: data.reply,
+const replyText = data.answer || data.reply || data.message || data.text || "No response received.";
+setMessages((prev) => [...prev, {
+  id: Date.now()+1, role: "agent", text: replyText,
         time: new Date().toLocaleTimeString([], { hour: "2-digit", minute: "2-digit" }),
       }]);
     } catch (e) {
